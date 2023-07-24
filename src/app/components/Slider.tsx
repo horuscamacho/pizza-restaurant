@@ -35,7 +35,7 @@ export default function Slider() {
             {/* TEXT CONTAINER*/}
             <div
                 className="h-1/2 flex items-center justify-center flex-col gap-8 text-red-500 font-bold lg:h-full lg:w-1/2">
-                <h1 className="text-5xl text-center uppercase p-4 md:text-6xl xl:text-7xl md:p-10">
+                <h1 className="text-2xl text-center uppercase p-4 md:text-4xl xl:text-6xl md:p-10">
                     {data[currentSlide].title}
                 </h1>
                 <button className="bg-red-500 text-white py-4 px-8">Ordena Ahora</button>
