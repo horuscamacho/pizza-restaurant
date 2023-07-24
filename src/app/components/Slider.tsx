@@ -42,7 +42,7 @@ export default function Slider() {
             </div>
             {/* IMAGE CONTAINER*/}
             <div className="w-full h-1/2 relative lg:h-full lg:w-1/2">
-                <Image src={data[currentSlide].image} alt="pizza guy" fill className="object-cover"/>
+                <Image src={data[currentSlide].image} alt="pizza guy" fill className="object-cover" priority={true}/>
             </div>
         </div>
     )
