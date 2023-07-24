@@ -7,7 +7,7 @@ export default function Footer() {
                   className="font-bold text-xl"
             >Pizza
                 Shop</Link>
-            <p>All Rights Reserved.</p>
+            <p>Derechos Reservados.</p>
         </div>
     )
 }
