@@ -22,7 +22,7 @@ export default function FeaturedItems() {
                         <div className="  flex flex-col flex-1 items-center justify-center text-center gap-4">
                             <h1 className="text-xl font-bold uppercase xl:text-2xl 2xl:text-3xl">{item.title}</h1>
                             <p className="p-4 2xl:p-8 text-xs md:text-base">{item.desc}</p>
-                            <span className="text-xl font-bold">${item.price}.00</span>
+                            <span className="text-sm md:text-xl font-bold">${item.price}.00</span>
                             <button className="bg-red-500 text-white p-2 rounded-md">
                                 Agregar al carrito
                             </button>
